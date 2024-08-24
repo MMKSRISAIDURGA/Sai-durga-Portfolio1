@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+        background: linear-gradient(to left,rgb(2, 2, 32),rgb(18, 1, 22));
+        color: white;
+        font-family:'popins',sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background:linear-gradient(to left,rgb(4, 4, 60),rgb(45, 4, 55));
+    height: 60px;
+    
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover {
+    color: rgb(247, 15, 247);
+    font-size: 1.01rem;
+
+}
+.left{
+    font-size: 1.5rem;
+   
+}
+.leftsection{
+   font-size: 3rem;
+   margin: 50px 0;
+}
+.rightsection img{
+    width: 330px;
+    height: 330px;
+    border-radius: 100%;
+    margin: 50px 0;
+   
+    
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0;
+    align-items: center;
+}
+.firstsection >div  {
+    width: 30%;
+
+}
+.purple{
+    color: rgb(225, 7, 225);
+}
+.rightsection::after, .rightsection::before{
+    content: '';
+    position: absolute;
+    height: 330px;
+    width: 330px;
+    background-image: conic-gradient(purple,blue );
+    margin: 50px 0;
+    border-radius: 100%;
+    top: 46.2%;
+    left: 71%;
+    translate: -50% -50%;
+    z-index: -1;
+    padding: 3.6px;
+}
+.rightsection::before{
+    filter: blur(2.1rem);
+    /*opacity: 0.5;*/
+}
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+main hr{
+    border: 0;
+    background: purple;
+    height: 1.2px;
+    margin: 60px 84px;
+}
+.secondsection ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.c{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(76, 6, 142);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.p{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(76, 6, 142);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.html{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(76, 6, 142);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.css{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(76, 6, 142);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.js{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(76, 6, 142);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cimage{
+    height: 26px;
+    width: 26px;
+    border-radius: 100%;
+}
+.pimage{
+    height: 26px;
+    width: 26px;
+    border-radius: 100%;
+
+}
+.htmlimage{
+    height: 26px;
+    width: 26px;
+    border-radius: 100%;
+
+}
+.cssimage{
+    height: 26px;
+    width: 26px;
+    border-radius: 100%;
+
+}
+.jsimage{
+    height: 26px;
+    width: 26px;
+    border-radius: 100%;
+
+}
+.thirdsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 96vh;
+    
+   
+}
+.video{
+   
+    height:300px ;
+    width: 500px;
+   
+}
+.video1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.thirdsection h4{
+    color:rgb(102, 4, 102);
+    
+}
+.fourthsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+.full{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    gap: 50px;
+}
+.podcast{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fifthsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+
+}
+
+.rights{
+    text-align: center;
+    color: grey;
+    padding: 12px 0;
+
+}
+.fifthsection{
+    min-height: auto;
+    padding-bottom: 7rem;
+}
+.fifthsection form{
+    max-width: 70rem;
+    margin: 0 auto;
+    text-align: center;
+}
+.fifthsection form .inputbox{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.fifthsection form .inputbox .inputfield{
+    position: relative;
+    width:49% ;
+    margin: .8rem 0;
+}
+.fifthsection form .inputbox .inputfield input,
+.fifthsection form .textareafield textarea{
+    width: 100%;
+    height: 100%;
+   
+    font-size: 1.4rem;
+    color: var(--text-color);
+    background: transparent;
+    border-radius: .6rem;
+    border: .2rem solid rgb(94, 3, 94);
+}
+.fifthsection form .inputbox .inputfield input::placeholder,
+.fifthsection form .textareafield textarea::placeholder{
+    color: var(--text-color);
+}
+.fifthsection form .textareafield{
+    position: relative;
+    margin: .8rem 0 2 .7rem;
+    display: flex;
+}
+.fifthsection form .textareafield textarea{
+    resize: none;
+}
+.fifthsection form button{
+    background-color: rgb(87, 3, 76);
+    color:var(--text-color);
+    height: 57px;
+    width: 8rem;
+    border-radius: .6rem;
+    font-size: 1.4rem;
+    border: .2rem solid rgb(94, 3, 94);
+    cursor: pointer;
+}
+.button :hover{
+    background-color: blueviolet;
+
+}
+footer{
+    background-color: #1a1717;
+    height: 200px;
+}
+footer .footercontainer{
+    width: 100px;
+    padding: 70px 30px 20px;
+    
+}
+footer .socialicons{
+    display: flex;
+    justify-content: center;
+}
+footer .socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+footer .socialicons a i{
+    font-size: 2rem;
+    color: black;
+    opacity: 0.9;
+
+}
+footer .socialicons a:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+footer .socialicons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+footer nav{
+    margin: 30px 0;
+}
+.footernav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.footernav ul li a {
+    color: white;
+    margin: 20px;
+    
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+    list-style: none;
+}
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+
+.footernav ul li a:hover{
+    opacity: 1;
+}
+
+
+
+
+
+
+
